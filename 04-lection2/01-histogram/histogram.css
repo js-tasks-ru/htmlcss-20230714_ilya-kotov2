@@ -58,18 +58,18 @@
     flex-basis: 100%;
 }
 
-.histogram_column_s {
+.histogram__column_s {
     height: 15%;
 }
 
-.histogram_column_m {
+.histogram__column_m {
     height: 40%;
 }
 
-.histogram_column_l {
+.histogram__column_l {
     height: 60%;
 }
 
-.histogram_column_xl {
+.histogram__column_xl {
     height: 100%;
 }
