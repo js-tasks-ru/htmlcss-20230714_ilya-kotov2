@@ -26,14 +26,14 @@
     margin: 8px 0;
 }
 
-.skeleton_length_s {
+.skeleton__text_length_s {
     width: 40%;
 }
 
-.skeleton_length_l {
+.skeleton__text_length_l {
     width: 60%;
 }
 
-.skeleton_length_full {
+.skeleton__text_length_full {
     width: 100%;
 }
