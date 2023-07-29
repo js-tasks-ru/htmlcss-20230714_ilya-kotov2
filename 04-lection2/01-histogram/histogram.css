@@ -1,6 +1,7 @@
 .histogram {
-    padding: 19px 24px 24px;
+    padding: 16px 24px 24px;
     border: 1px solid var(--grey-3);
+    border-radius: 8px;
 }
 
 .histogram__info {
@@ -49,6 +50,7 @@
     align-items: flex-end;
     margin-top: 39px;
     column-gap: 1px;
+    height: 50px;
 }
 
 .histogram__column {
@@ -56,18 +58,18 @@
     flex-basis: 100%;
 }
 
-.histogram_size_s {
-    height: 11px;
+.histogram_column_s {
+    height: 15%;
 }
 
-.histogram_size_m {
-    height: 20px;
+.histogram_column_m {
+    height: 40%;
 }
 
-.histogram_size_l {
-    height: 40px;
+.histogram_column_l {
+    height: 60%;
 }
 
-.histogram_size_xl {
-    height: 50px;
+.histogram_column_xl {
+    height: 100%;
 }
