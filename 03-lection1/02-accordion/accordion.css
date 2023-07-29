@@ -7,6 +7,7 @@
     padding: 24px 32px;
     margin-bottom: 8px;
 }
+
 .accordion__item:last-child {
     margin-bottom: 0;
 }
@@ -14,6 +15,7 @@
 .accordion__item[open] {
     padding-bottom: 32px;
 }
+
 .accordion__summary {
     display: block;
     font-family: 'Inter', sans-serif;
@@ -24,9 +26,11 @@
     color: var(--black);
     cursor: pointer;
 }
+
 .accordion__summary::-webkit-details-marker {
     display: none;
 }
+
 .accordion__text {
     color: var(--grey-4);
     font-family: 'Inter', sans-serif;
