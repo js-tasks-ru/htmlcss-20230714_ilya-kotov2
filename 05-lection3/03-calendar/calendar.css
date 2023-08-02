@@ -1,7 +1,7 @@
 .calendar {
     border: 1px solid var(--gray-3, #ACB5BD);
     border-radius: 8px;
-    padding: 28px 30px 40px;
+    padding: 28px 26px 32px;
 }
 
 .calendar__title {
@@ -31,7 +31,7 @@
 }
 
 .calendar__item {
-    color: var(--334-d-6-e, #334D6E);;
+    color: var(--334-d-6-e, #334D6E);
     font-family: 'Source Sans Pro';
     font-size: 16px;
     font-style: normal;
