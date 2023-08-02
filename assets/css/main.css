@@ -28,3 +28,69 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.conteiner {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #DDE2E5;
+}
+
+.header-title {
+    color: var(--black, #212429);
+    font-family: "Inter";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px; /* 128% */
+}
+
+.preview {
+    background-color: aquamarine;
+}
+
+.page__main {
+    flex-grow: 1;
+}
+
+.preview__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    height: 350px;
+    flex-basis: 100%;
+    background-color: olivedrab;
+}
+
+.footer {
+    background-color: burlywood;
+
+}
+.footer-title {
+    color: var(--black, #212429);
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 126.316% */
+}
+
+.footer-text {
+    color: var(--black, #212429);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
