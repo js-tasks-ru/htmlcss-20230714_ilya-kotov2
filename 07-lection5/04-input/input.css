@@ -1,0 +1,57 @@
+.custom-input {
+    position: relative;
+}
+
+.custom-input__text {
+    padding: 17px 24px 13px;
+    border: 1px solid var(--gray-2, #DDE2E5);
+    border-radius: 4px;
+
+    color: var(--gray-4, #495057);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+
+.custom-input__text::placeholder {
+    color: var(--gray-2, #DDE2E5);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.custom-input__text:focus {
+    border-color: var(--primary-color);
+}
+
+.custom-input_success::after {
+    content: url('./public/success.svg');
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+
+.custom-input_invalid::after {
+    content: url('./public/invalid.svg');
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+
+:is(.custom-input_invalid) .custom-input__text {
+    border-color: red;
+}
+
+:is(.custom-input_invalid) .custom-input__text:focus {
+    border-color: var(--primary-color);
+}
