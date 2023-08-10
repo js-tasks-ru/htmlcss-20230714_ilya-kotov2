@@ -1,5 +1,4 @@
-
-.checkbox__label {
+.checkbox {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -55,10 +54,10 @@
     background: var(--gray-2, #DDE2E5);
 }
 
-.checkbox__label:has(.checkbox__input:disabled) {
+.checkbox:has(.checkbox__input:disabled) {
     pointer-events: none;
 }
 
-.checkbox__input:focus + .checkbox__tick {
-    border-color: var(--black);
+.checkbox__input:focus ~ .checkbox__text {
+    text-decoration-line: underline;
 }
