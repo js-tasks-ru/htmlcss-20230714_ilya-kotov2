@@ -1,5 +1,6 @@
 .custom-input {
     position: relative;
+    display: inline-block;
 }
 
 .custom-input__text {
@@ -24,11 +25,8 @@
     line-height: 26px; /* 130% */
 }
 
-*:focus {
-    outline: none !important;
-}
-
 .custom-input__text:focus {
+    outline: none !important;
     border-color: var(--primary-color);
 }
 
@@ -48,10 +46,10 @@
     transform: translateY(-50%);
 }
 
-:is(.custom-input_invalid) .custom-input__text {
+.custom-input_invalid > .custom-input__text {
     border-color: red;
 }
 
-:is(.custom-input_invalid) .custom-input__text:focus {
+.custom-input_invalid > .custom-input__text:focus {
     border-color: var(--primary-color);
 }
