@@ -67,16 +67,6 @@
     border-left: 15px solid var(--black);
 }
 
-.mobile-menu__dark-mode {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0 24px;
-    margin-top: 33px;
-    border-top: 1px solid var(--grey-2, #DDE2E5);
-    border-bottom: 1px solid var(--grey-2, #DDE2E5);
-    cursor: pointer;
-}
-
 .mobile-menu__nav {
     margin-top: 24px;
 }
